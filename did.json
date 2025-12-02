@@ -3,13 +3,13 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:master",
+  "id": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:main",
   "_comment": "WARNING: This DID document contains a placeholder public key. Replace 'EXAMPLE_PUBLIC_KEY_BASE64URL_ENCODED' with your actual Ed25519 public key before production use. See DID.md for key generation instructions.",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:master#key-1",
+      "id": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:main#key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:grippy:self",
+      "controller": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:main",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -18,14 +18,14 @@
     }
   ],
   "authentication": [
-    "did:web:raw.githubusercontent.com:grippy:self:refs:heads:master#key-1"
+    "did:web:raw.githubusercontent.com:grippy:self:refs:heads:main#key-1"
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:grippy:self:refs:heads:master#key-1"
+    "did:web:raw.githubusercontent.com:grippy:self:refs:heads:main#key-1"
   ],
   "service": [
     {
-      "id": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:master#github",
+      "id": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:main#github",
       "type": "LinkedDomains",
       "serviceEndpoint": "https://github.com/grippy/self"
     }
