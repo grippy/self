@@ -4,6 +4,7 @@
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
   "id": "did:web:raw.githubusercontent.com:grippy:self",
+  "_comment": "WARNING: This DID document contains a placeholder public key. Replace 'EXAMPLE_PUBLIC_KEY_BASE64URL_ENCODED' with your actual Ed25519 public key before production use. See DID.md for key generation instructions.",
   "verificationMethod": [
     {
       "id": "did:web:raw.githubusercontent.com:grippy:self#key-1",

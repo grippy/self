@@ -67,7 +67,7 @@ To use this DID document in production:
 Using Node.js and the `jose` library:
 
 ```javascript
-const { generateKeyPair, exportJWK } = require('jose');
+import { generateKeyPair, exportJWK } from 'jose';
 
 (async () => {
   const { publicKey, privateKey } = await generateKeyPair('EdDSA', {
