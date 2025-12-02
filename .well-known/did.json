@@ -9,7 +9,7 @@
     {
       "id": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:main#key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:grippy:self",
+      "controller": "did:web:raw.githubusercontent.com:grippy:self:refs:heads:main",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
